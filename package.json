@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for IT professional minoring in Computer Science",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080 -o",
+    "dev": "npx http-server . -p 8080 -o"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "modern"
+  ],
+  "author": "Rishabh Dhingra",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
+
+

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website for IT professional minoring in Computer Science">
+    <meta name="author" content="Rishabh Dhingra">
+    <title>Rishabh Dhingra - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#featured-project" class="nav-link">Featured Projects</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="cyber-grid"></div>
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            <div class="leaves-container">
+                <div class="leaf leaf-1"></div>
+                <div class="leaf leaf-2"></div>
+                <div class="leaf leaf-3"></div>
+                <div class="leaf leaf-4"></div>
+                <div class="leaf leaf-5"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hey, I'm</p>
+                <h1 class="hero-name">
+                    <span class="name-line">Rishabh Dhingra</span>
+                </h1>
+                <h2 class="hero-title">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <div class="hero-buttons">
+                    <a href="#featured-project" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right btn-arrow"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rishabhrdhingra/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rishdhingra" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#footer" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="terminal-glow"></div>
+                    <div class="code-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="terminal-title">terminal</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="code-line">
+                                <span class="code-prompt">$</span>
+                                <span class="code-text">npm install creativity</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="code-output">✓ Installed successfully</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="code-prompt">$</span>
+                                <span class="code-text">git commit -m "Building amazing things"</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="code-output">[main rishabh] Building amazing things</span>
+                            </div>
+                            <div class="code-line typing">
+                                <span class="code-prompt">$</span>
+                                <span class="code-text" id="typing-code"></span>
+                                <span class="code-cursor">_</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="cyber-grid"></div>
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Building the Future, One Line of Code at a Time</h3>
+                        <p>
+                            Detail-oriented and highly passionate individual with a hardworking attitude searching for a Software Engineering internship or part-time opportunity to gain professional experience and apply existing skills for further development.
+                        </p>
+                        
+                    </div>
+                    <div class="coffee-stats-wrapper">
+                        <h4 class="coffee-stats-title">
+                            <i class="fas fa-coffee"></i>
+                            Weekly Coffee Stats
+                        </h4>
+                        <div class="coffee-stats-list">
+                            <div class="coffee-stat-item" data-value="8" data-day="Mon">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Mon</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="12" data-day="Tue">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Tue</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="10" data-day="Wed">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Wed</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="15" data-day="Thu">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Thu</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="14" data-day="Fri">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Fri</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="6" data-day="Sat">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Sat</div>
+                            </div>
+                            <div class="coffee-stat-item" data-value="5" data-day="Sun">
+                                <div class="stat-value">0</div>
+                                <div class="stat-bar-container">
+                                    <div class="stat-bar-bg"></div>
+                                    <div class="stat-bar-fill"></div>
+                                </div>
+                                <div class="stat-day-label">Sun</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-card">
+                        <div class="card-glow"></div>
+                        <img src="assets/images/gllass.png" alt="Rishabh Dhingra" class="about-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section id="featured-project" class="featured-project">
+        <div class="featured-project-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="cyber-grid"></div>
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="featured-project-content">
+                <div class="project-showcase">
+                    <div class="project-screen">
+                        <div class="screen-header">
+                            <div class="screen-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="screen-url">aerobin.com</div>
+                        </div>
+                        <div class="screen-content">
+                            <div class="animated-content">
+                                <!-- Project Video Preview -->
+                                <video class="project-video" autoplay muted loop playsinline>
+                                    <source src="assets/videos/aeroo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge">Latest Project</div>
+                        <h3 class="project-title">AeroBin</h3>
+                        <p class="project-description">
+                            Developed the smart waste monitoring platform's website for AeroBin: a startup using real-time bin sensors and AI-optimized routes to reduce operational costs and environmental impact.
+                            <br><br>
+                            Trusted by Columbia University, Rutgers University, and supported by NSF, Launch Circuit, and Qualcomm funding. Featured in Shark Tank Rutgers (2nd place showcase).
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">HTML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="featured-project no-top-padding">
+        <div class="featured-project-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="cyber-grid"></div>
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="featured-project-content">
+                <div class="project-showcase">
+                    <div class="project-screen">
+                        <div class="screen-header">
+                            <div class="screen-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="screen-url">endo-ai.com</div>
+                        </div>
+                        <div class="screen-content">
+                            <div class="animated-content">
+                                <!-- Project Screenshot/Animation Area -->
+                                <div class="project-preview endo-ai-preview">
+                                    <div class="preview-slide slide-2 static-slide">
+                                        <div class="slide-content">
+                                            <div class="code-preview">
+                                                <div class="code-line"></div>
+                                                <div class="code-line"></div>
+                                                <div class="code-line"></div>
+                                                <div class="code-line highlight"></div>
+                                                <div class="code-line"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge">In Progress</div>
+                        <h3 class="project-title">Endo AI</h3>
+                        <p class="project-description">
+                            Working with Robert Wood Johnson University Hospital, developing multimodal deep learning models for MRI/ultrasound analysis and gynecologic cardiac risk prediction, supported by AWS-based pipelines for scalable training and deployment. Contributing to explainable AI tools for biomarker discovery and surgical decision support.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">PyTorch</span>
+                            <span class="tech-badge">AWS</span>
+                            <span class="tech-badge">SageMaker</span>
+                            <span class="tech-badge">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-emails">
+                    <div class="footer-email">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Work: rrd84@scarletmail.rutgers.edu</span>
+                    </div>
+                    <div class="footer-email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Personal: dhingrabusiness@gmail.com</span>
+                    </div>
+                </div>
+                <p>&copy; 2026 Rishabh Dhingra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
